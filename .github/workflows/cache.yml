@@ -15,14 +15,14 @@ jobs:
           python-version: "3.11"
 
       - name: prime-cache-71c854a
-        id: cache-step
+        id: prime-cache-71c854a
         uses: actions/cache@v4
         with:
           key: cache-71c854a
           path: ~/.cache/pip
 
-      - name: show-cache-result
-        run: echo "Cache hit? ${{ steps.cache-step.outputs.cache-hit }}"
+      - name: echo-cache-status
+        run: echo "Cache hit? ${{ steps.prime-cache-71c854a.outputs.cache-hit }}"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
