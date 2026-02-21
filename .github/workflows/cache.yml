@@ -17,8 +17,8 @@ jobs:
       - name: prime-cache-71c854a
         uses: actions/cache@v4
         with:
-          path: ~/.cache/pip
           key: cache-71c854a
+          path: ~/.cache/pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
