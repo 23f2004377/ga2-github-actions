@@ -1,1 +1,1 @@
-Testing GitHub Action for GA2
+Testing GitHub Action for TDS GA2
