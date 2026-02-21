@@ -1,1 +1,1 @@
-Testing GitHub Action
+Testing GitHub Action for GA2
